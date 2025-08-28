@@ -45,9 +45,8 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
-      >Hey! I'm Dev Sharma, a final-year Computer Science student at Parul Institute of Technology. I'm an experienced Application and UI/UX Developer with a strong foundation in Graphic Design, and I work extensively with TypeScript, JavaScript, and frameworks like React, Node.js, and Three.js. Known for being a quick learner, I thrive on collaborating closely with clients to develop efficient, scalable, and user-friendly solutions that address real-world challenges. Let’s team up to turn your ideas into reality!
-      </motion.p>
+        className='mt-4 text-secondary text-[17px]  leading-[30px]'
+      >Hey! I am Dev Sharma, a B.Tech graduate in Computer Science and Engineering from Parul University with a strong foundation in backend and full stack development. Skilled in Python (Django/REST) and React.js, I focus on building secure, scalable, and efficient applications that solve real-world problems. I have completed an internship at BISAG-N, where I contributed to impactful projects, gaining hands-on experience in software development and security practices. Over time, I have also worked on academic and personal projects ranging from e-commerce platforms to security-driven applications, which helped me strengthen my problem-solving, debugging, and testing skills. With a passion for continuous learning and collaboration, I aim to create reliable, user-friendly solutions that combine functionality with long-term value.</motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (

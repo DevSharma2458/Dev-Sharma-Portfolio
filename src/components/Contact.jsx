@@ -37,9 +37,9 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Backend Developer(Django/Python) and Full Stack (Django REST/React)",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "devsharma24003@gmail.com",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
